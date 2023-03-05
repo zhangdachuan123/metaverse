@@ -1,0 +1,34 @@
+/* 重复样式的设置  */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* html,
+body {
+    height: 100%;
+} */
+
+/* 去掉原有链接文字下划线 */
+a {
+    text-decoration: none;
+}
+
+/* 点击时去掉下划线 */
+.router-link-active {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 1200px;
+    height: 100%;
+    margin: 30px auto;
+}
+
+.flex {
+    display: flex;
+}
